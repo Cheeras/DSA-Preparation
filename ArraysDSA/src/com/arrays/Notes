@@ -1,0 +1,42 @@
+1.What is the length of the array:
+int arr [][] = new int[3][4];
+System.out.println(arr.length);
+Ans : it is 3
+//it means that length of the array is nothing but no of rows
+
+2. is below code is valid or not
+int arr[][] = new int[][6];
+
+Ans: it is invalid because it is mandatory to mention number of rows  hence it is invalid
+no of colomns is optional
+
+3. is the below code is valid or not
+int arr[][] = new int[5][];
+
+Ans: it is valid because only no of rows is mandatory but no of columns are optional
+
+4. Why in 2D arrays no of rows is mandatory but no of colomns are optional
+Ans:
+here we need to understand one thing
+arr will store in stack memory
+where as object will be created in heap, in heap how many number of object (arrays) created is mandatory but 
+
+int arr [][] = new int[3][];
+
+in heap [-,-,-] we can imagine this as array of arrays
+each individual array will be created some other part of the heap
+
+example:
+int arr[][] = { {1,2,3},
+		{4,5,6},
+		{7,8,9}};
+
+arr[1] will give {4,5,6}
+arr[1][0] = 4
+arr[1][1] = 5
+
+arr[2] will give {7,8,9}
+arr[2][0] = 7
+arr[2][1] = 8
+=================
+
