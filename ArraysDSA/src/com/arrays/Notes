@@ -40,3 +40,13 @@ arr[2][0] = 7
 arr[2][1] = 8
 =================
 
+/*Notes about the array
+		 * 1. int arr[]; this is called array declaration here int is datatype and arr reference variable
+		 * 2. array declaration happens at compile time
+		 * 3. new int[5]; this is called creating the object in heap memory. this will happen and run time
+		 * 4. array objects are created in heap
+		 * 5. heap objects are not continous,(depends on JVM) hence array objects are not continuose because array objects are created in heap
+		 * 6. Dynamic memory allocation meaning array creation happen at run time not compile time
+		 * 7. Arrays are mutable in natare i.e we can change the elements of the array 
+		 * */
+		
