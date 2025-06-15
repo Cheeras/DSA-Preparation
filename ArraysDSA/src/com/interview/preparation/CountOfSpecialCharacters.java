@@ -19,12 +19,9 @@ public class CountOfSpecialCharacters {
 				countOfSpe++;
 			}
 		}
-		
 		System.out.println("Count of Small letters "+countOfSmall);
 		System.out.println("Count of Capital letters "+countOfCap);
 		System.out.println("Count of Digits letters "+countOfDig);
 		System.out.println("Count of Special letters "+countOfSpe);
-		
-		
 	}
 }
